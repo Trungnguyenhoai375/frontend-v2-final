@@ -19,7 +19,7 @@ function App() {
 
   return (
     <div style={{ padding: '30px', textAlign: 'center', fontFamily: 'Arial' }}>
-      <h1>🚀 Project 1 - Quản Lý User (Clean)</h1>
+      <h1>Project 1 - Quản Lý User (Clean)</h1>
       <form onSubmit={add} style={{ marginBottom: '20px' }}>
         <input name="name" placeholder="Nhập tên..." required style={{ marginRight: '10px' }} />
         <input name="email" placeholder="Nhập email..." required style={{ marginRight: '10px' }} />
