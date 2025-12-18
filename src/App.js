@@ -32,6 +32,7 @@ function App() {
         </tbody>
       </table>
     </div>
+    //kich no
   );
 }
 export default App;
