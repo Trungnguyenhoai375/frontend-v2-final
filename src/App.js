@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 
 function App() {
   const [users, setUsers] = useState([]);
-  // Link Render mới toanh của Trung
+
   const API = 'https://backend-v2-final.onrender.com/api/users';
 
   const load = () => fetch(API).then(res => res.json()).then(setUsers);
